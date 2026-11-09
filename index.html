@@ -13,9 +13,8 @@
             <a href="#inicio" class="logo">Mi Portafolio</a>
             <ul>
                 <li><a href="#sobre-mi">sobre mí</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#experiencia">experiencia</a></li>
                 <li><a href="#proyectos">proyectos</a></li>
-                <li><a href="#contacto">contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -26,33 +25,39 @@
             <h2>Coder en formación</h2>
             <p>Construyendo soluciones web funcionales y limpias</p>
         </section>
-        <section id="sobre mi">
-        <h2>Acerca de mí</h2>
-        <p>
-            Me interesa mucho el mundo del desarrollo de software, soy una persona muy expontanea y transparente
-        </p>
+        <section id="sobre-mi">
+            <h2>Acerca de mí</h2>
+            <p>
+                Me interesa mucho el mundo del desarrollo de software. Soy una persona muy espontánea y transparente.
+            </p>
         </section>
         <section id="experiencia">
             <h2>Experiencia Profesional</h2>
             <article>
                 <h3>App para manejar tus finanzas en appsheet</h3>
-                <p>Responsable de la creacion de la app</p>
+                <p>Responsable de la creación de la app.</p>
             </article>
         </section>
         <section id="proyectos">
             <h2>Proyectos Desarrollados</h2>
-            <article>
-                <h3>ParcheDev</h3>
-                <p>Sitio web creado para una integracion de desarrolladores en medellin</p>
-                <a href="https://ronald0226.github.io/parche-dev" target="_blank" class="btn-ver">Ver en vivo</a>
-                <img src="img/parchedev.png" alt="Captura de pantalla del proyecto ParcheDev">
-            </article>
-            <article>
-                <h3>Rueda libre</h3>
-                <p>sitio web creado para el alquiler de bicicletas en medellin.</p>
-                <a href="http://127.0.0.1:5500/rueda-libre-/index1.html" target="_blank" class="btn-ver">Ver en vivo</a>
-                <img src="img/rueda-libre.png" alt="Captura de pantalla del segundo proyecto">
-            </article>
+            <div class="proyectos-grid">
+                <article class="proyecto-card">
+                    <img src="img/parchedev.png" alt="Captura de pantalla del proyecto ParcheDev">
+                    <div class="proyecto-contenido">
+                        <h3>ParcheDev</h3>
+                        <p>Sitio web creado para conectar a la comunidad de desarrolladores en Medellín.</p>
+                        <a href="https://ronald0226.github.io/parche-dev/" target="_blank" rel="noopener noreferrer" class="btn-ver">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="proyecto-card">
+                    <img src="img/rueda-libre.png" alt="Captura de pantalla del proyecto Rueda Libre">
+                    <div class="proyecto-contenido">
+                        <h3>Rueda Libre</h3>
+                        <p>Sitio web para el alquiler de bicicletas en Medellín.</p>
+                        <a href="https://ronald0226.github.io/rueda-libre-/index.html" target="_blank" rel="noopener noreferrer" class="btn-ver">Ver proyecto</a>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 </body>
