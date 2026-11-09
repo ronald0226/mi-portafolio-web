@@ -1,7 +1,18 @@
-# Portafolio Web Personal
+# Portafolio web personal
 
 **Nombre del coder:** Ronald Stiwar Quinto Mosquera
-**Descripción:** Portafolio web construido desde cero utilizando HTML semántico y CSS responsivo para presentar la información personal, experiencia y los proyectos desarrollados durante el programa de formación.
 
-## Enlace de publicación
-- **URL del portafolio:** [https://github.com/ronald0226/mi-portafolio-web](http://127.0.0.1:5500/mi%20portafolio%20web/index.html)
+Portafolio creado con HTML semántico y CSS responsivo para presentar mi perfil, experiencia y proyectos.
+
+## Proyectos
+
+- **ParcheDev:** [Ver proyecto](https://ronald0226.github.io/parche-dev/)
+- **Rueda Libre:** [Ver proyecto](https://ronald0226.github.io/rueda-libre-/index.html)
+
+## Ver el portafolio
+
+Abre `index.html` en un navegador o usa la extensión Live Server de Visual Studio Code para previsualizarlo localmente.
+
+## Código fuente
+
+[Ver el repositorio en GitHub](https://github.com/ronald0226/mi-portafolio-web)
